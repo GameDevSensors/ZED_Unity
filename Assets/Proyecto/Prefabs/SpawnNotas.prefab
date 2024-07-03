@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1186498971218284526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9149061035938284605}
+  - component: {fileID: -5420747528610620090}
+  - component: {fileID: -3862693202921064964}
+  - component: {fileID: 4392082457675207384}
+  m_Layer: 0
+  m_Name: SpawnNotas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9149061035938284605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186498971218284526}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5420747528610620090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186498971218284526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ed1d64de9b859b43a26e372cf4caca3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  caminos:
+  - {fileID: 0}
+--- !u!114 &-3862693202921064964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186498971218284526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699ede29d84405d44a251b12540de0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objeto: {fileID: 3134423398337965030, guid: 6fd27a234991711449c3b6f5de029e0c, type: 3}
+  tomarPosicionSpawn: 1
+  tomarRotacionSpawn: 0
+  spawn: {fileID: 9149061035938284605}
+  listaCaminos: {fileID: -5420747528610620090}
+  velocidadEntrarCurva: 0.3
+  velocidadSalirCurva: 1
+  reproducirEnStart: 1
+  bucle: 0
+  rotacionDinamica: 0
+--- !u!114 &4392082457675207384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186498971218284526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f00168ab3368524189f498eb1596909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generar_SeguirCurva: {fileID: -3862693202921064964}
+  cantidadGenerar: 10
+  tiempoEspera: 1

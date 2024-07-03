@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8400d154202524dabafe4820253e05, type: 3}
+  m_Name: Escala de sonidos
+  m_EditorClassIdentifier: 
+  sonidos:
+  - nombreInstrumento: Error
+    instrumento: 0
+    clips:
+    - {fileID: 8300000, guid: 4e275a9f9f1224840a2e28229d456c6f, type: 3}
+  - nombreInstrumento: Piano
+    instrumento: 1
+    clips:
+    - {fileID: 8300000, guid: 2a678096342ef3a419cde3d069f8bc26, type: 3}
+    - {fileID: 8300000, guid: e226bb6602133ff4dbc5f105bd93267c, type: 3}
+    - {fileID: 8300000, guid: 0c444a0918740214da37cd88f28081ca, type: 3}
+    - {fileID: 8300000, guid: fa4d2d6e13c552242b62506dfac82afd, type: 3}
+    - {fileID: 8300000, guid: d8b82b52954a8fa4dac3d2b2703e0789, type: 3}
+    - {fileID: 8300000, guid: c8476a0dc583b4249b97402fcfe2cb2b, type: 3}
+    - {fileID: 8300000, guid: ac5f6d7898fead44fbd568f028748cd6, type: 3}
+  - nombreInstrumento: Guitarra
+    instrumento: 2
+    clips:
+    - {fileID: 8300000, guid: c8858d4ea80778a4f8017cf3a5eb6254, type: 3}
+    - {fileID: 8300000, guid: 9e982b2b6d5c68244837a926a644e64e, type: 3}
+    - {fileID: 8300000, guid: 650f824b87122f24eab245c0f4a0c01a, type: 3}
+    - {fileID: 8300000, guid: f439f1984a633694486f3bb96d1a7420, type: 3}
+    - {fileID: 8300000, guid: 27367018af765ad43b16f4fe509a3724, type: 3}
+    - {fileID: 8300000, guid: b83a534f9744148489138d3fb1e4627f, type: 3}
+    - {fileID: 8300000, guid: 17cc244e76932414eab2716445989fa2, type: 3}
