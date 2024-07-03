@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "ZED_UnityURP.sln"
+    "dotnet.defaultSolution": "Unity_Proyecto.sln"
 }
